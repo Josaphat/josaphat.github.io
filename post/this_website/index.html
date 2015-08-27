@@ -1,0 +1,199 @@
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>This Website</title>
+  <meta name="description" content="This Website">
+  <meta name="author" content="Josaphat Valdivia">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://josaphat.co/css/common.css">
+</head>
+
+  <body>
+    <div class="navbar">
+  
+  <a href="/" class="site-title">josaphat.co</a>
+  <ul class="menu-list">
+    
+
+    <li class="menu-item">
+      <a href="http://josaphat.co/about/" class="menu-link">About</a>
+    </li>
+  </ul>
+</div>
+
+
+
+    <div class="post">
+      <div class="post-title">
+	<h1>This Website</h1>
+	<p class="footnote">
+	  <time class="">2015-08-25</time>
+	  
+	  
+	  |
+	  
+	  
+	  
+	  tags:<a href="http://josaphat.co/tags/web">web</a> <a href="http://josaphat.co/tags/html">html</a> <a href="http://josaphat.co/tags/css">css</a> <a href="http://josaphat.co/tags/hugo">hugo</a> 
+	  
+
+	  
+	</p>
+
+      </div>
+      <div class="post-content">
+	
+
+<p>The first and most logical thing I have to talk about is this website.  Bear with it if some things aren&rsquo;t perfect; it&rsquo;s still a work-in-progress, but I&rsquo;ve waited until it at least got to a presentable point before publishing it.</p>
+
+<p>If you&rsquo;re on the latest Chrome or Firefox, these pages should already look mostly complete (the footer being the only thing in need of some polish).  If you&rsquo;re viewing the site on elinks, w3m, and probably other text-only web browsers, then the state of the site ought to be indistinguishable from complete.</p>
+
+<p>If you find any problems with the site or have any questions about it, feel free to contact me ( <code>jos at josaphat.co</code> ).</p>
+
+<p>This website is powered by <a href="https://gohugo.io/">hugo</a>, the static website engine.  Although the community around hugo has provided a wide collection of ready-made themes, I found every single one of them bloated with &ldquo;modern&rdquo; web design.  Even the theme claiming that it leaves out everything &ldquo;fancy&rdquo; used poor markup and relied extensively on fetching a large style-sheet from some external website.  The look and feel was minimalist, but seeing the code made it feel bloated.  All of the other designs were too &ldquo;modern&rdquo;, with front-pages that include an enormous hero image and which <em>force</em> users to scroll for the tiniest bit of information.</p>
+
+<p><strong>hugo</strong> is great, but these themes&hellip;?  Not so much.</p>
+
+<p>So instead of going with any of those themes, I took the most minimalist theme I could find as inspiration (in this case <a href="https://github.com/gizak/nofancy/">nofancy</a>) and actually removed all of the fancy.  Thus far, I&rsquo;m pleased with the results.  The HTML/CSS I&rsquo;ve written displays static text with a little bit of makeup.  Without leaving the CSS out entirely, it doesn&rsquo;t get more minimalist than that.</p>
+
+<p>The generated source code is available, of course, using your browser.  Once I&rsquo;m satisfied that the look and feel of the site is complete, I will open a pull request to have it included in the hugo repository&rsquo;s list of themes.</p>
+
+<h2 id="go-s-template-library:c4936d20617dd9e4507ca2b80203dc13">Go&rsquo;s Template Library</h2>
+
+<p>Hugo leverages Go&rsquo;s html template library to generate webpages.  You can embed some logic in HTML code so that the engine can output variables into web pages for you.</p>
+
+<p>Using a template is very simple.  Template logic goes inside double curly braces <code>{{  }}</code> and you can do things like include <em>if</em> statements, and use pseudo-for-loops using go&rsquo;s <code>range</code> keyword to generate lists of things like post tags.  Interestingly, you can create and use &ldquo;local&rdquo; variables which are declared using <code>$</code>.</p>
+
+<p>The code snippet at the bottom of the page includes examples of the template system in action.  The variables are for the most part provided by hugo</p>
+
+<h2 id="favicons:c4936d20617dd9e4507ca2b80203dc13">Favicons</h2>
+
+<p>I&rsquo;m not familiar with the format that favicons are supposed to be, and apparently there are a whole host of file formats that you need to create in order to accommodate as many platforms as possible.  Interesting though it would have been to try and create the favicon myself, I decided to just defer to <a href="http://realfavicongenerator.net/">realfavicongenerator</a>.  The source image should be 260x260.</p>
+
+<p>I don&rsquo;t have any images that come to mind when I think of myself, so I just made my little icon <code>J.</code> in my favorite font, Source Code Pro.</p>
+
+<h2 id="code-of-note:c4936d20617dd9e4507ca2b80203dc13">Code of Note</h2>
+
+<p>The most difficult part about this was creating the header bar such that the name of the website was on the left, but a list of top-level pages displayed on the right.  The most straightforward, float-free way that I found to accomplish this was on <a href="http://stackoverflow.com/a/10277235/1823076">stackoverflow</a>.  It uses <code>text-align: justify;</code> to turn the navigation bar into a paragraph where the left-most and right-most blocks on a line are spread apart with whitespace so that the line is flush with both margins.  This is the same effect you see in newsprint, which I have tried to recreate below.</p>
+
+<blockquote>
+<pre><code>You  may  notice  in  newsprint
+that  spaces  are  inserted  in
+the middle of lines to  get the
+lines to be flush with both the
+left   and   right  marg i n s.
+</code></pre>
+</blockquote>
+
+<p>The trick works by using blocks instead of words on a line (the line being the header bar).  It then asks the renderer to justify the line, forcing the left block&rsquo;s left edge to line up with the left margin and the right block&rsquo;s right edge to line up with the right margin.  I&rsquo;m not sure that the results would be aesthetically appealing if three or more blocks of differing lengths were used instead.  If it works with blocks the same as with text, then extra space won&rsquo;t necessarily be distributed evenly.</p>
+
+<p>In my case, the two blocks are the website title (contained in an anchor tag), and a list of links (the list of size one, but it&rsquo;s still enclosed in <code>&lt;ul&gt;</code> tags).  I won&rsquo;t pretend to understand the intricacies of the CSS for this technique (I still have no idea why the <code>::after</code> bit is necessary to make it work) so I&rsquo;ll just present the snippet.</p>
+
+<p>Here&rsquo;s the HTML partial for the header bar:</p>
+
+<pre><code>&lt;div class=&quot;navbar&quot;&gt;
+    {{ $baseurl := .Site.BaseURL }}
+    &lt;a href=&quot;/&quot; class=&quot;site-title&quot;&gt;{{ .Site.Title }}&lt;/a&gt;
+    &lt;ul class=&quot;menu-list&quot;&gt;
+        {{ range $name, $page := .Site.Taxonomies.categories }}
+        &lt;li class=&quot;menu-item&quot;&gt;
+            &lt;a href=&quot;{{ $baseurl }}categories/{{ $name | urlize }}&quot; class=&quot;menu-link&quot;&gt;
+                {{ $name | title }}
+            &lt;/a&gt;
+        &lt;/li&gt;
+        {{ end }}
+        &lt;li class=&quot;menu-item&quot;&gt;
+            &lt;a href=&quot;{{ $baseurl }}about/&quot; class=&quot;menu-link&quot;&gt;About&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>And the CSS:</p>
+
+<pre><code>.navbar {
+    text-align: justify;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+
+    /* IE special */
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.navbar:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.site-title {
+    display: inline-block;
+    font-size: 26px;
+    font-color: #ddd;
+    text-decoration: none;
+
+    /* ie 7 */
+    *display: inline;
+    *zoom: 1;
+    *text-align: left;
+}
+.menu-list {
+    display: inline-block;
+    list-style: none;
+    vertical-align: baseline;
+    padding: 0;
+    margin: 0;
+    /* ie 7 */
+    *display: inline;
+    *zoom: 1;
+    *text-align: right;
+}
+.menu-item {
+    display: inline;
+}
+</code></pre>
+
+      </div>
+    </div>
+    
+    <div class="footer">
+  <h3 id="foot-name">Copyright © 2015 By Josaphat Valdivia</h3>
+  <ul class="menu-list">
+    
+
+    
+    <li class="menu-item">
+      <a href="https://github.com/Josaphat">GitHub</a>
+    </li>
+    
+
+    
+    <li class="menu-item">
+      <a href="https://www.linkedin.com/in/josaphatv">LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+    <li class="menu-item">
+      <a href="https://twitter.com/jophat">Twitter</a>
+    </li>
+    
+
+  </ul>
+  <a href="#" class="menu-heading pull-right" id="gototop-btn">↑↑</a>
+
+  
+
+  
+</div>
+
+    
+
+  </body>
+</html>

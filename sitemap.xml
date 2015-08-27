@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://josaphat.co/</loc>
+    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://josaphat.co/post/this_website/</loc>
+    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://josaphat.co/post/intro/</loc>
+    <lastmod>2015-08-23T16:31:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://josaphat.co/about/</loc>
+    <lastmod>2015-08-10T01:49:00-04:00</lastmod>
+  </url>
+  
+</urlset>
