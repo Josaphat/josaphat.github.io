@@ -1,133 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Html on josaphat.co</title>
+    <title>html on josaphat.co</title>
     <link>http://josaphat.co/tags/html/</link>
-    <description>Recent content in Html on josaphat.co</description>
+    <description>Recent content in html on josaphat.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate>
-    <atom:link href="http://josaphat.co/tags/html/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="http://josaphat.co/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Website</title>
       <link>http://josaphat.co/post/this_website/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
       <guid>http://josaphat.co/post/this_website/</guid>
-      <description>
-
-&lt;p&gt;The first and most logical thing I have to talk about is this website.  Bear with it if some things aren&amp;rsquo;t perfect; it&amp;rsquo;s still a work-in-progress, but I&amp;rsquo;ve waited until it at least got to a presentable point before publishing it.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re on the latest Chrome or Firefox, these pages should already look mostly complete (the footer being the only thing in need of some polish).  If you&amp;rsquo;re viewing the site on elinks, w3m, and probably other text-only web browsers, then the state of the site ought to be indistinguishable from complete.&lt;/p&gt;
-
-&lt;p&gt;If you find any problems with the site or have any questions about it, feel free to contact me ( &lt;code&gt;jos at josaphat.co&lt;/code&gt; ).&lt;/p&gt;
-
-&lt;p&gt;This website is powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, the static website engine.  Although the community around hugo has provided a wide collection of ready-made themes, I found every single one of them bloated with &amp;ldquo;modern&amp;rdquo; web design.  Even the theme claiming that it leaves out everything &amp;ldquo;fancy&amp;rdquo; used poor markup and relied extensively on fetching a large style-sheet from some external website.  The look and feel was minimalist, but seeing the code made it feel bloated.  All of the other designs were too &amp;ldquo;modern&amp;rdquo;, with front-pages that include an enormous hero image and which &lt;em&gt;force&lt;/em&gt; users to scroll for the tiniest bit of information.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;hugo&lt;/strong&gt; is great, but these themes&amp;hellip;?  Not so much.&lt;/p&gt;
-
-&lt;p&gt;So instead of going with any of those themes, I took the most minimalist theme I could find as inspiration (in this case &lt;a href=&#34;https://github.com/gizak/nofancy/&#34;&gt;nofancy&lt;/a&gt;) and actually removed all of the fancy.  Thus far, I&amp;rsquo;m pleased with the results.  The HTML/CSS I&amp;rsquo;ve written displays static text with a little bit of makeup.  Without leaving the CSS out entirely, it doesn&amp;rsquo;t get more minimalist than that.&lt;/p&gt;
-
-&lt;p&gt;The generated source code is available, of course, using your browser.  Once I&amp;rsquo;m satisfied that the look and feel of the site is complete, I will open a pull request to have it included in the hugo repository&amp;rsquo;s list of themes.&lt;/p&gt;
-
-&lt;h2 id=&#34;go-s-template-library:c4936d20617dd9e4507ca2b80203dc13&#34;&gt;Go&amp;rsquo;s Template Library&lt;/h2&gt;
-
-&lt;p&gt;Hugo leverages Go&amp;rsquo;s html template library to generate webpages.  You can embed some logic in HTML code so that the engine can output variables into web pages for you.&lt;/p&gt;
-
-&lt;p&gt;Using a template is very simple.  Template logic goes inside double curly braces &lt;code&gt;{{  }}&lt;/code&gt; and you can do things like include &lt;em&gt;if&lt;/em&gt; statements, and use pseudo-for-loops using go&amp;rsquo;s &lt;code&gt;range&lt;/code&gt; keyword to generate lists of things like post tags.  Interestingly, you can create and use &amp;ldquo;local&amp;rdquo; variables which are declared using &lt;code&gt;$&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The code snippet at the bottom of the page includes examples of the template system in action.  The variables are for the most part provided by hugo&lt;/p&gt;
-
-&lt;h2 id=&#34;favicons:c4936d20617dd9e4507ca2b80203dc13&#34;&gt;Favicons&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m not familiar with the format that favicons are supposed to be, and apparently there are a whole host of file formats that you need to create in order to accommodate as many platforms as possible.  Interesting though it would have been to try and create the favicon myself, I decided to just defer to &lt;a href=&#34;http://realfavicongenerator.net/&#34;&gt;realfavicongenerator&lt;/a&gt;.  The source image should be 260x260.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t have any images that come to mind when I think of myself, so I just made my little icon &lt;code&gt;J.&lt;/code&gt; in my favorite font, Source Code Pro.&lt;/p&gt;
-
-&lt;h2 id=&#34;code-of-note:c4936d20617dd9e4507ca2b80203dc13&#34;&gt;Code of Note&lt;/h2&gt;
-
-&lt;p&gt;The most difficult part about this was creating the header bar such that the name of the website was on the left, but a list of top-level pages displayed on the right.  The most straightforward, float-free way that I found to accomplish this was on &lt;a href=&#34;http://stackoverflow.com/a/10277235/1823076&#34;&gt;stackoverflow&lt;/a&gt;.  It uses &lt;code&gt;text-align: justify;&lt;/code&gt; to turn the navigation bar into a paragraph where the left-most and right-most blocks on a line are spread apart with whitespace so that the line is flush with both margins.  This is the same effect you see in newsprint, which I have tried to recreate below.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;You  may  notice  in  newsprint
-that  spaces  are  inserted  in
-the middle of lines to  get the
-lines to be flush with both the
-left   and   right  marg i n s.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The trick works by using blocks instead of words on a line (the line being the header bar).  It then asks the renderer to justify the line, forcing the left block&amp;rsquo;s left edge to line up with the left margin and the right block&amp;rsquo;s right edge to line up with the right margin.  I&amp;rsquo;m not sure that the results would be aesthetically appealing if three or more blocks of differing lengths were used instead.  If it works with blocks the same as with text, then extra space won&amp;rsquo;t necessarily be distributed evenly.&lt;/p&gt;
-
-&lt;p&gt;In my case, the two blocks are the website title (contained in an anchor tag), and a list of links (the list of size one, but it&amp;rsquo;s still enclosed in &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; tags).  I won&amp;rsquo;t pretend to understand the intricacies of the CSS for this technique (I still have no idea why the &lt;code&gt;::after&lt;/code&gt; bit is necessary to make it work) so I&amp;rsquo;ll just present the snippet.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the HTML partial for the header bar:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;navbar&amp;quot;&amp;gt;
-    {{ $baseurl := .Site.BaseURL }}
-    &amp;lt;a href=&amp;quot;/&amp;quot; class=&amp;quot;site-title&amp;quot;&amp;gt;{{ .Site.Title }}&amp;lt;/a&amp;gt;
-    &amp;lt;ul class=&amp;quot;menu-list&amp;quot;&amp;gt;
-        {{ range $name, $page := .Site.Taxonomies.categories }}
-        &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
-            &amp;lt;a href=&amp;quot;{{ $baseurl }}categories/{{ $name | urlize }}&amp;quot; class=&amp;quot;menu-link&amp;quot;&amp;gt;
-                {{ $name | title }}
-            &amp;lt;/a&amp;gt;
-        &amp;lt;/li&amp;gt;
-        {{ end }}
-        &amp;lt;li class=&amp;quot;menu-item&amp;quot;&amp;gt;
-            &amp;lt;a href=&amp;quot;{{ $baseurl }}about/&amp;quot; class=&amp;quot;menu-link&amp;quot;&amp;gt;About&amp;lt;/a&amp;gt;
-        &amp;lt;/li&amp;gt;
-    &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And the CSS:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.navbar {
-    text-align: justify;
-    font-size: 22px;
-    border-bottom: 1px solid #ccc;
-
-    /* IE special */
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-}
-.navbar:after {
-    content: &#39;&#39;;
-    display: inline-block;
-    width: 100%;
-    height: 0;
-    font-size: 0;
-    line-height: 0;
-}
-.site-title {
-    display: inline-block;
-    font-size: 26px;
-    font-color: #ddd;
-    text-decoration: none;
-
-    /* ie 7 */
-    *display: inline;
-    *zoom: 1;
-    *text-align: left;
-}
-.menu-list {
-    display: inline-block;
-    list-style: none;
-    vertical-align: baseline;
-    padding: 0;
-    margin: 0;
-    /* ie 7 */
-    *display: inline;
-    *zoom: 1;
-    *text-align: right;
-}
-.menu-item {
-    display: inline;
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>The first and most logical thing I have to talk about is this website. Bear with it if some things aren&amp;rsquo;t perfect; it&amp;rsquo;s still a work-in-progress, but I&amp;rsquo;ve waited until it at least got to a presentable point before publishing it.
+If you&amp;rsquo;re on the latest Chrome or Firefox, these pages should already look mostly complete (the footer being the only thing in need of some polish). If you&amp;rsquo;re viewing the site on elinks, w3m, and probably other text-only web browsers, then the state of the site ought to be indistinguishable from complete.</description>
     </item>
     
   </channel>
