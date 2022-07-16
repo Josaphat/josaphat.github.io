@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>html on josaphat.co</title>
-    <link>http://josaphat.co/tags/html/</link>
+    <link>https://josaphat.co/tags/html/</link>
     <description>Recent content in html on josaphat.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="http://josaphat.co/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="https://josaphat.co/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Website</title>
-      <link>http://josaphat.co/post/this_website/</link>
+      <link>https://josaphat.co/posts/this_website/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
-      <guid>http://josaphat.co/post/this_website/</guid>
-      <description>The first and most logical thing I have to talk about is this website. Bear with it if some things aren&amp;rsquo;t perfect; it&amp;rsquo;s still a work-in-progress, but I&amp;rsquo;ve waited until it at least got to a presentable point before publishing it.
-If you&amp;rsquo;re on the latest Chrome or Firefox, these pages should already look mostly complete (the footer being the only thing in need of some polish). If you&amp;rsquo;re viewing the site on elinks, w3m, and probably other text-only web browsers, then the state of the site ought to be indistinguishable from complete.</description>
+      <guid>https://josaphat.co/posts/this_website/</guid>
+      <description>&lt;p&gt;The first and most logical thing I have to talk about is this website.  Bear with it if some things aren&amp;rsquo;t perfect; it&amp;rsquo;s still a work-in-progress, but I&amp;rsquo;ve waited until it at least got to a presentable point before publishing it.&lt;/p&gt;</description>
     </item>
     
   </channel>

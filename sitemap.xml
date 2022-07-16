@@ -2,38 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://josaphat.co/about/</loc>
+    <loc>https://josaphat.co/</loc>
+    <lastmod>2022-07-16T00:26:32-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/about/</loc>
     <lastmod>2022-07-02T13:39:41-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/tags/css/</loc>
+    <loc>https://josaphat.co/tags/css/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/tags/html/</loc>
+    <loc>https://josaphat.co/tags/html/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/tags/hugo/</loc>
+    <loc>https://josaphat.co/tags/hugo/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/</loc>
+    <loc>https://josaphat.co/posts/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/post/</loc>
+    <loc>https://josaphat.co/tags/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/tags/</loc>
+    <loc>https://josaphat.co/posts/this_website/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/post/this_website/</loc>
+    <loc>https://josaphat.co/tags/web/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>http://josaphat.co/tags/web/</loc>
-    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
+    <loc>https://josaphat.co/categories/</loc>
   </url><url>
-    <loc>http://josaphat.co/post/intro/</loc>
-    <lastmod>2015-08-23T16:31:03-04:00</lastmod>
-  </url><url>
-    <loc>http://josaphat.co/categories/</loc>
-  </url><url>
-    <loc>http://josaphat.co/series/</loc>
+    <loc>https://josaphat.co/posts/howoldisspace/</loc>
   </url>
 </urlset>

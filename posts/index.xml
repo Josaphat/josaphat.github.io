@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>josaphat.co Home on josaphat.co</title>
-    <link>https://josaphat.co/</link>
-    <description>Recent content in josaphat.co Home on josaphat.co</description>
+    <title>Posts on josaphat.co</title>
+    <link>https://josaphat.co/posts/</link>
+    <description>Recent content in Posts on josaphat.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Jul 2022 00:26:32 -0400</lastBuildDate><atom:link href="https://josaphat.co/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://josaphat.co/about/</link>
-      <pubDate>Sat, 02 Jul 2022 13:39:41 -0400</pubDate>
-      
-      <guid>https://josaphat.co/about/</guid>
-      <description>Josaphat Valdivia is Senior Software Engineer at Datto. People tend call him &amp;ldquo;Jos&amp;rdquo; (pronounced /&amp;lsquo;dʒos/), for short.
-Josaphat is a proficient software developer, leveraging good Software Engineering practice in all of his projects. He is most proficient in C++ and C, has a working knowledge of Python, and knows enough C#, Java, Rust, and go to break builds. He can grok shell scripts, has experience programming for the web using technologies such as PHP, ASP.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="https://josaphat.co/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Website</title>
       <link>https://josaphat.co/posts/this_website/</link>

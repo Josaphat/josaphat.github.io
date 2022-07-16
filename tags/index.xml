@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on josaphat.co</title>
-    <link>http://josaphat.co/tags/</link>
+    <link>https://josaphat.co/tags/</link>
     <description>Recent content in Tags on josaphat.co</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="http://josaphat.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2015 23:38:56 -0400</lastBuildDate><atom:link href="https://josaphat.co/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>css</title>
-      <link>http://josaphat.co/tags/css/</link>
+      <link>https://josaphat.co/tags/css/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
-      <guid>http://josaphat.co/tags/css/</guid>
+      <guid>https://josaphat.co/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>http://josaphat.co/tags/html/</link>
+      <link>https://josaphat.co/tags/html/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
-      <guid>http://josaphat.co/tags/html/</guid>
+      <guid>https://josaphat.co/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://josaphat.co/tags/hugo/</link>
+      <link>https://josaphat.co/tags/hugo/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
-      <guid>http://josaphat.co/tags/hugo/</guid>
+      <guid>https://josaphat.co/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>http://josaphat.co/tags/web/</link>
+      <link>https://josaphat.co/tags/web/</link>
       <pubDate>Tue, 25 Aug 2015 23:38:56 -0400</pubDate>
       
-      <guid>http://josaphat.co/tags/web/</guid>
+      <guid>https://josaphat.co/tags/web/</guid>
       <description></description>
     </item>
     
