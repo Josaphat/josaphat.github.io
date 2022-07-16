@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Jul 2022 00:26:32 -0400</lastBuildDate><atom:link href="https://josaphat.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>howoldis.space ?</title>
+      <link>https://josaphat.co/posts/howoldisspace/</link>
+      <pubDate>Sat, 16 Jul 2022 02:25:03 -0400</pubDate>
+      
+      <guid>https://josaphat.co/posts/howoldisspace/</guid>
+      <description>&lt;p&gt;Quite a few years ago now, during the downtime on a work trip, one of
+my colleagues jokingly obtained the domain and howoldis.space and we
+generated a website to answer that very question: Just how old is
+space, exactly?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>https://josaphat.co/about/</link>
       <pubDate>Sat, 02 Jul 2022 13:39:41 -0400</pubDate>
@@ -24,18 +36,6 @@ Josaphat is a proficient software developer, leveraging good Software Engineerin
       
       <guid>https://josaphat.co/posts/this_website/</guid>
       <description>&lt;p&gt;The first and most logical thing I have to talk about is this website.  Bear with it if some things aren&amp;rsquo;t perfect; it&amp;rsquo;s still a work-in-progress, but I&amp;rsquo;ve waited until it at least got to a presentable point before publishing it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>howoldis.space ?</title>
-      <link>https://josaphat.co/posts/howoldisspace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://josaphat.co/posts/howoldisspace/</guid>
-      <description>&lt;p&gt;Quite a few years ago now, during the downtime on a work trip, one of
-my colleagues jokingly obtained the domain and howoldis.space and we
-generated a website to answer that very question: Just how old is
-space, exactly?&lt;/p&gt;</description>
     </item>
     
   </channel>

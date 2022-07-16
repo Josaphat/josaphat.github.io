@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://josaphat.co/posts/howoldisspace/</loc>
+    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/posts/</loc>
+    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/tags/</loc>
+    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/tags/web/</loc>
+    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+  </url><url>
     <loc>https://josaphat.co/</loc>
     <lastmod>2022-07-16T00:26:32-04:00</lastmod>
   </url><url>
@@ -17,20 +29,9 @@
     <loc>https://josaphat.co/tags/hugo/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>https://josaphat.co/posts/</loc>
-    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
-  </url><url>
-    <loc>https://josaphat.co/tags/</loc>
-    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
-  </url><url>
     <loc>https://josaphat.co/posts/this_website/</loc>
     <lastmod>2015-08-25T23:38:56-04:00</lastmod>
   </url><url>
-    <loc>https://josaphat.co/tags/web/</loc>
-    <lastmod>2015-08-25T23:38:56-04:00</lastmod>
-  </url><url>
     <loc>https://josaphat.co/categories/</loc>
-  </url><url>
-    <loc>https://josaphat.co/posts/howoldisspace/</loc>
   </url>
 </urlset>
