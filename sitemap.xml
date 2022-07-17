@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://josaphat.co/posts/howoldisspace/</loc>
-    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+    <loc>https://josaphat.co/posts/ditching_github/</loc>
+    <lastmod>2022-07-17T16:50:00-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/tags/foss/</loc>
+    <lastmod>2022-07-17T16:50:00-04:00</lastmod>
   </url><url>
     <loc>https://josaphat.co/posts/</loc>
-    <lastmod>2022-07-16T02:25:03-04:00</lastmod>
+    <lastmod>2022-07-17T16:50:00-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/tags/software-development/</loc>
+    <lastmod>2022-07-17T16:50:00-04:00</lastmod>
   </url><url>
     <loc>https://josaphat.co/tags/</loc>
+    <lastmod>2022-07-17T16:50:00-04:00</lastmod>
+  </url><url>
+    <loc>https://josaphat.co/posts/howoldisspace/</loc>
     <lastmod>2022-07-16T02:25:03-04:00</lastmod>
   </url><url>
     <loc>https://josaphat.co/tags/web/</loc>

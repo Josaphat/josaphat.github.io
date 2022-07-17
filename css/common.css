@@ -39,6 +39,7 @@ code {
     display: inline-block;
     background-color: #75798F;
     color: #F6F1F2;
+    padding-left: 3em;
 }
 
 .post-content > pre {
