@@ -1,5 +1,18 @@
+/* Colors:*/
+/* Hint of Red: F6F1F2 - Light Shades: background for dark-on-light designs, or text of an inverted design*/
+/* Shakespeare: 5CB0D0 - Light Accent: bring attention to design elements by contrasting with other palette colors*/
+/* Matisse: 20529C - Main Brand Color: liberally applied*/
+/* Waterloo: 75798F - Dark Accent: another accent to consider. not all colors need to be used...*/
+/* Steel Gray: 1A1C26 - Dark Shades: use as the text color for dark on light designs, or bg for light on dark*/
+
+/* text-primary: rgb(33, 81, 157)*/
+/* text-dark-secondary: rgb(6, 6, 7)*/
+/* dark accent: rgb(117, 121, 143) (as a background. using #FFF as the text color*/
+/* Inverted button: background is white, text is #999*/
+/* Also this color: rgb(196, 163, 170) for "text-light-secondary". */
+
 body {
-    background-color:#fafafa;
+    background-color:#F6F1F2;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.4;
@@ -14,8 +27,18 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
 }
 
+a {
+    color: rgb(117, 121, 143);
+}
+
 code {
     font-size: 14px;
+}
+
+.sidenote {
+    display: inline-block;
+    background-color: #75798F;
+    color: #F6F1F2;
 }
 
 .post-content > pre {
@@ -23,7 +46,7 @@ code {
     padding: 5px;
 }
 .post-content > pre code {
-    color: #000;
+    color: #1A1C26;
     font-size: 12px;
     font-weight: bold;
 }
@@ -36,11 +59,11 @@ hr {
     margin-left: -100%;
     border: 0;
     height: 1px;
-    background: #ccc;
+    background: #20529C;
 }
 
 .navbar {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #20529C;
     text-align: justify;
     font-size: 22px;
     padding-left: 5px;
@@ -63,7 +86,7 @@ hr {
 .site-title {
     display: inline-block;
     font-size: 26px;
-    color: #000;
+    color: #20529C;
     text-decoration: none;
 
     /* ie 7 */
@@ -94,6 +117,7 @@ hr {
 }
 
 .navbar li a {
+    color: #20529C;
     text-decoration: none;
 }
 
@@ -103,7 +127,7 @@ hr {
 
 /* Footer Styles */
 .footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #5CB0D0;
     bottom: 0;
     height: 60px;
     padding-left: 5px;
@@ -114,17 +138,16 @@ hr {
 #foot-name {
     display: inline-block;
     font-size: 16px;
-    color: #999;
+    color: #75798F;
     text-decoration: none;
 }
 
 #gototop-btn {
     display: inline-block;
     font-size: 16px;
-    color: #999;
+    color: #75798F;
     text-decoration: none;
 }
-
 
 .content {
     padding-left: 5px;
